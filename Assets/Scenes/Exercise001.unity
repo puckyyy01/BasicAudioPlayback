@@ -324,7 +324,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BAPLaserSoundExercise
   audioSource: {fileID: 104386057}
-  exposedParameters: []
+  exposedParameters:
+  - exposedParameterName: LaserFlangeRate
+    value: 10
 --- !u!1 &121265762
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,36 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-2128920088110218146
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 0539bc160b2d3473cbe1c02727cd24dd
+  m_EffectName: Chorus
+  m_MixLevel: 90a9b9fc085d14258bc6c2cd9ea4d9f5
+  m_Parameters:
+  - m_ParameterName: Dry mix
+    m_GUID: 2e30cfc9e622f46c2a499e71e2777f0f
+  - m_ParameterName: Wet mix tap 1
+    m_GUID: 71115665908cb48c8876a2e4ab127c30
+  - m_ParameterName: Wet mix tap 2
+    m_GUID: 0dea0501304c74b5e89bb408332787e8
+  - m_ParameterName: Wet mix tap 3
+    m_GUID: c5fb665caf635461ba65a1f07bb25ab4
+  - m_ParameterName: Delay
+    m_GUID: 3c259b55152c643d9beb3d609590630c
+  - m_ParameterName: Rate
+    m_GUID: 6bd2bcea6642c4c1d9e88ef8b654f0ca
+  - m_ParameterName: Depth
+    m_GUID: 1b6f170164a5a423cbc510ef11dd7682
+  - m_ParameterName: Feedback
+    m_GUID: ad0e1f2a2211f481f98ada989826f16f
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-538874324448535116
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -72,10 +102,10 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
-  - guid: e10627592d6fe4832b8af076fef0e271
-    name: PlayerFootstepsSoundsReverbRoom
   - guid: ba57cf5d14ac94cd0b87e374aa8280a4
     name: PlayerFootstepsSoundsReverbDecayTime
+  - guid: e10627592d6fe4832b8af076fef0e271
+    name: PlayerFootstepsSoundsReverbRoom
   m_AudioMixerGroupViews:
   - guids:
     - c265c9774859f41c7853155096913c84
@@ -151,6 +181,7 @@ AudioMixerGroupController:
   m_Effects:
   - {fileID: -7998883945788878959}
   - {fileID: -538874324448535116}
+  - {fileID: -2128920088110218146}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
